@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Theme -->
+  <title>Portfolio - Amitesh Prabhakar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="./styles.css" rel="stylesheet" type="text/css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" id="nav-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#contact"><img src="./images/Pic.jpg" width="50" height="50"
+            style="padding-bottom: 1px; border-radius: 100%;"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center" id="home">
+    <h1>Hello! I am, <name id="Name"></name>
+    </h1>
+    <div class="row about-cnt" style="display: flex;">
+      <!-- <div class="col-sm-8" style="text-align: left;"> -->
+        <about id="about" style="display: none;">
+          <p style="justify-content: auto; padding: 20px;">I am a Software Engineer with 19 years of fieldwork in ERP
+            Financials IT Applications. I am highly focused and results-oriented Information Technology professional
+            with rich experience in complex, large-scale development programs including Implementations, Upgrades and
+            Application maintenance of ERP IT applications. I have the following certifications: AWS Certified
+            Developer, AWS Certified Solutions Architect, Certified Associate in Python Programming, Certified
+            PeopleSoft Payables and Receivables 9.1 implementation specialist.</p>
+        </about>
+      <!-- </div> -->
+      <!-- <div class="col-sm-8" style="padding: 50px;"> -->
+        <p><iframe id="video" style="padding: 5px; display: none;" width="500" height="300"
+          src="https://www.youtube.com/embed/yOMqC59cC2s">
+        </iframe></p>
+      <!-- </div> -->
+    </div>
+  </div>
+
+  <div id="projects" class="container-fluid text-center">
+    <h1 style="padding: 50px;">PROJECTS</h1>
+    <div class="column text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>PacMen Exercise</h3>
+            </div>
+            <div class="panel-body text-center">
+              <p>This page creates PacMen with the click of a button and each of them will move about the browser window
+                at their own pace. The PacMen changes direction when it bounces against the walls.</p>
+            </div>
+            <buttons class="buttons">
+              <button class="btn btn-danger"><a href="https://github.com/amitesh-mern/PacMen_Exercise" target="_blank"  style="color:white">View Github Repo</a></button>
+              <button class="btn btn-danger"><a href="https://amitesh-mern.github.io/PacMen_Exercise/" target="_blank"  style="color:white">View App Page</a></button>
+            </buttons>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>Eye Exercise</h3>
+            </div>
+            <div class="panel-body text-center">
+              <p>This app is a page with two eyes that follows your mouse movement. It uses javascript and CSS.</p>
+            </div>
+            <buttons class="buttons">
+              <button class="btn btn-danger"><a href="https://github.com/amitesh-mern/Eye_Exercise" target="_blank"  style="color:white">View Github Repo</a></button>
+              <button class="btn btn-danger"><a href="https://amitesh-mern.github.io/Eye_Exercise/" target="_blank"  style="color:white">View App Page</a></button>
+            </buttons>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>Real Time Bus Tracking</h3>
+            </div>
+            <div class="panel-body text-center">
+              <p>This app uses an API to show the locations of the Bus stops between MIT and Harvard in boston animated on a Map.</p>
+            </div>
+            <buttons class="buttons">
+              <button class="btn btn-danger"><a href="https://github.com/amitesh-mern/Real_Time_Bus_Tracker" target="_blank"  style="color:white">View Github Repo</a></button>
+              <button class="btn btn-danger"><a href="https://amitesh-mern.github.io/Real_Time_Bus_Tracker/" target="_blank"  style="color:white">View App Page</a></button>
+            </buttons>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+  </div>
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row contact">
+      <div class="col-sm-5">
+        <img src="./images/Pic.jpg" width="200" height="200">
+      </div>        
+      <div class="col-sm-5">
+        <p>Contact details :</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Princeton, NJ</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> amitesh28@gmail.com</p>
+        <a href="https://www.linkedin.com/in/amitesh-prabhakar-6149a014/" target="_blank" style="color: white;">LinkedIn: <img src="./images/linkedin.webp" width="50" height="35"></a><br>
+        <a href="https://github.com/amitesh-mern/" target="_blank" style="color: white;"> GitHub: <img src="./images/GitHub-logo.png" width="70" height="35"></a>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" placeholder="Name" type="name" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="container-fluid text-center" id="footer">
+    <a href="#home" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Back to top</p>
+  </footer>
+</body>
+
+</html>
