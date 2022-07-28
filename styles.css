@@ -38,6 +38,8 @@ body {
 
 .jumbotron {
   background-color: white /* #717171 */;
+  display: flex;
+  flex-wrap: wrap;
   color: #272341 /* #B2D732 */;
   font-family: Montserrat /* dakota */, sans-serif;
   padding: 200px;
@@ -120,6 +122,8 @@ name {
   }
   .jumbotron {
     background-color: white /* #717171 */;
+    display: flex;
+    flex-wrap: wrap;
     color: #272341 /* #B2D732 */;
     font-family: Montserrat /* dakota */, sans-serif;
     padding-bottom: 200px;
